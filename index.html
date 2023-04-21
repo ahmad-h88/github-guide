@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>How to showcase your Capstone Project on GitHub</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>How to showcase your Capstone Project</h1>
+            <p>Showcasing your coding projects is an essential step towards presenting your skills as a Software Developer. It provides an opportunity to demonstrate your coding abilities, creativity, problem-solving, and communication skills. Here's a step-by-step guide on how to showcase your coding project effectively:</p>
+        </header>
+        <main>
+            <h2>Step 1: Cleanup your projects README.md file</h2>
+            <p>The README file should contain information about your project, including the purpose, features, and instructions on how to run the project. Here is a link to a sample README.md file for module 1 and here is a link for a README.md file for module 2. You can simply copy the content and paste it into your README.md file.</p>
+            <p><strong>Note: </strong> Please consider enhancing your solution with feedback provided by your Technical Advisors before publishing to GitHub in order to showcase your best project.</p>
+            <h2>Step 2: Create a GitHub Account</h2>
+            <p>If you have already created your account, then you can skip this step and proceed to Step 3. 
+            </p>
+            <p>GitHub is the most popular platform for hosting and sharing code repositories. Create a GitHub repository for your project and include all the necessary code files, including the README.md file. </p>
+            <h3>How to Create a GitHub Repository
+            </h3>
+            <p>If you don’t have a GitHub account already, creating a GitHub account is a straightforward process that involves just a few steps. Here's how to create a GitHub account<sup class="sup"><a href="https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account">1</a></sup>: </p>
+    
+            <ol>
+                <li>Go to the GitHub website: The first step is to navigate to the GitHub website at: <a href="https://github.com/">GitHub</a> .
+                </li>
+                <li>Sign up: Once you're on the website, click the "Sign up" button in the top right corner of the page.</li>
+                <li>Enter your information: You'll be prompted to enter your name, a valid email address, and a strong password. You can also choose your username at this stage. Make sure to choose a username that's easy to remember and relevant to your interests.
+                </li>
+                <li>Choose your plan: GitHub offers both free and paid plans. If you're just starting with GitHub, <strong> the free plan</strong>. It provides enough features for most developers.</li>
+                <li>Complete the verification process: After you've entered your information and chosen a plan, GitHub will ask you to verify your email address. Check your email inbox for a verification email from GitHub and follow the instructions to complete the process.</li>
+                <li>Set up your profile: Once you've verified your email, you'll be taken to your GitHub profile page. Here, you can add information about yourself, including a profile picture, bio, and links to your website or social media profiles.
+                </li>
+            </ol>
+    
+            <h2>Step 3: Update your pom.xml file</h2>
+            <ol>
+                <li>Delete content of your pom.xml file</li>
+                <li>Copy the content of this link and paste it to your pom.xml file</li>
+            </ol>
+    
+            <h2>Step 4: Push your project to your GitHub account</h2>
+            <p>To push a project to GitHub, follow these steps:
+            </p>
+            <ol>
+                <li>
+                    <ul>
+                        <li>Go to GitHub.com and sign in to your account
+                        </li>
+                        <li>Click the "+" button in the top-right corner of the screen and select "New repository"</li>
+                        <li>Choose a name for your repository: You can choose a name like vending-machine-app for your module 1 capstone project and money-transfer-app for your module 2 capstone. </li>
+                        <li>Make it public</li>
+                        <li><strong> DO NOT </strong>check the “Add a README file” as your project already has a README.md file
+                        </li>
+                        <li>Click on “Create repository”</li>
+                        <li>Once your project is created, you will see a window like below:</li>
+                    </ul>
+                </li>
+                <li>Click on the "HTTPS" option and copy the URL provided by clicking the button as shown in the screenshot above</li>
+                <li>Navigate to the directory where your project is saved on your local machine. If you are using MacOS or Linux, open your terminal and if you are using Microsoft Windows, open your GitBash and run the command " <code>rm -rf .git </code>" to delete your Git history.</li>
+                <li>Create a new Git repository by running the following command: " <code>git init</code> "</li>
+                <li>
+                    Add files to the staging area and commit your changes: In the terminal, run the command "<code>git add .</code>" to add all files in your project directory to the staging area. If you only want to add specific files, replace "." with the file names. Run the command 
+    "<code>git commit -m '[Commit message]'</code>" to commit your changes to the local repository. Replace [<code>Commit message</code>] with a short description of the changes you made (e.g. Initial commit).
+                </li>
+                <li>Connect your local repository to the remote repository: In the terminal, run the command "<code>git remote add origin [Paste the GitHub repository URL you copied earlier]</code>" to connect your local repository to the remote repository you just created on GitHub.
+                </li>
+                <li>Push changes to the remote repository: In the terminal, run the command "<code>git push origin main</code>" to push the changes from your local repository to the remote repository on GitHub.</li>
+                <li>Check the remote repository: Refresh your browser and navigate to your repository on GitHub. You should see the files you just pushed. Congratulations! Your project is now successfully pushed to GitHub.</li>
+            </ol>
+            <h2>Step 5: Share your project:</h2>
+            <p>After you push your project to your GitHub account, share it on various social media platforms, including Twitter and LinkedIn. You can also reach out to relevant communities and forums to showcase your project and get feedback from other developers.</p>
+        </main>
+    </div>
+</body>
+</html>
